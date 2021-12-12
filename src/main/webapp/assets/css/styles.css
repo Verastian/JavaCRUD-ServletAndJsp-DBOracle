@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+img{
+	width:100%;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.text_color {
+	color: #464b27;
+}
+
+.bg-color-head{
+	background-color:#bcc86a;
+}
+.bg-color-foot{
+	background-color:#d6dea5;
+}
+.bg-color-table{
+	background-color:#e4e9c3;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#precio::before{
+    content: "\f155";
+    color:#bcc86a;
+}
+
+.form-group#nombre_producto::before{
+    content: "\f06c";
+    color:#bcc86a;
+}
+
+.form-group#descripcion::before{
+    content: "\f044";
+    color:#bcc86a;
+}
+
+
+
+.items-group#edit a::before{
+	font-family: "Font Awesome\ 5 Free";
+    content: "\f044";
+    color:#668cff;
+}
+
+.items-group#delete a::before{
+	font-family: "Font Awesome\ 5 Free";
+    content: "\f2ed";
+    color:#cd5c5c;
+}
+
+#face::before{
+	font-family: "Font Awesome\ 5 Free";
+    content: "\f082";
+    color: #464b27;
+    font-size: 22px;
+}
+.social#twit a::before{
+    content: "\f081";
+     color: #464b27;
+    font-size: 22px;
+}
+.social#goog a::before{
+    content: "\f0d4";
+     color: #464b27;
+    font-size: 22px;
+}
+.social#Insta a::before{
+    content: "\e055";
+     color: #464b27;
+    font-size: 22px;
+}
+.social#whts a::before{
+    content: "\f40c";
+    color: #464b27;
+    font-size: 22px;
+}
